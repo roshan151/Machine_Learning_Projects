@@ -1,6 +1,6 @@
 **Computer Vision**
 
-Multiclass Classification
+[Multiclass Classification]( is a convolutional neural network model that classifies images with hand signals into 25 different classes. Model Architecture consists of 2 convolutional and max pooling layers, 1 dropout layer to avoid overfitting, 1 dense layer with 514 neurons and a final dense layer with 25 neurons and softmax. 
 
 Transfer Learning
 
