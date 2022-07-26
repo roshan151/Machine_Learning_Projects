@@ -1,22 +1,25 @@
+**Data Visualization**
+
+
 **Computer Vision**
 
-[Multiclass Classification](https://github.com/roshan151/roshan151/blob/main/Multiclass_classification_for_Computer_Vision.ipynb) is a convolutional neural network model that classifies images with hand signals into 25 different classes. Model architecture consists of 2 convolutional and max pooling layers, 1 dropout layer to avoid overfitting, 1 dense layer with 514 neurons and a final dense layer with 25 neurons and softmax. 
+[Multiclass Classification](https://github.com/roshan151/roshan151/blob/main/Multiclass_classification_for_Computer_Vision.ipynb): In this poject I have used a convolutional neural network model to classifies images with hand signals into 25 different classes. Model architecture consists of 2 convolutional and max pooling layers, 1 dropout layer to avoid overfitting, 1 dense layer with 514 neurons and a final dense layer with 25 neurons and softmax. 
 
-[Transfer Learning](https://github.com/roshan151/roshan151/blob/main/Transfer_Learning_for_Computer_Vision.ipynb) is a computer vision model which uses imported weights from a state of the art computer vision model - InceptionV3. All the layers of InceptionV3 model are set to untrainable except for the last. Then a final DNN architecture is added with a dense layer of 1024 neuron, a dropout layer and a final dense layer with 1 neuron and sigmoid activation to classify colored images of humans and horses.
-
+[Transfer Learning](https://github.com/roshan151/roshan151/blob/main/Transfer_Learning_for_Computer_Vision.ipynb): Here I have created  a computer vision model which uses imported weights from a model trained on extensive dataset- InceptionV3. All the layers of InceptionV3 model are set to untrainable except for the last. Then a final DNN architecture is added with a dense layer of 1024 neuron, a dropout layer and a final dense layer with 1 neuron and sigmoid activation to classify colored images of humans and horses.
 
 **Time Series Analysis using Tensorflow**
 
-Artificial time series and Moving Average Baseline model - 
+[Moving Average Baseline model](https://github.com/roshan151/roshan151/blob/main/Time_series_creating_data.ipynb):In this notebook I have created an artificial time series by adding gradual slope, seasonal variations over a fixed period and random noise to the graph. Then I have used an average of previous few predictions to predict the next value and this has created a moving average time series prediction baseline model. 
 
-DNN Architecture to predict the artificial time series data
+[LSTM Model to outperform baseline](https://github.com/roshan151/roshan151/blob/main/LSTM_to_predict_Time_Series.ipynb): This model outperforms the moving average baseline in predicting the time series. It uses 2 bidirectional LSTMs layers to learn the features of the timeseries sending context to and fro and then predicts the next value of a time series.
 
-Prediction of sun spot temperatures 
+[Prediction of sun spot temperatures](https://github.com/roshan151/roshan151/blob/main/Sunspots_Time_Series_Prediction.ipynb): Sunspot Temperatures is a huge dataset that records temperature of sun's surface as far back as 1980's. My deep learning architecture aims at predicting this time series using a convolutional layer, two LSTM layers and three Dense layers. It also uses a Stochastic Gradient Descent optimizer which selects the best learning rate by running the model on a range of learning rates. 
 
 **Natural Language Processing**
 
-Text Generator
+[Sarcasm Detection](https://github.com/roshan151/roshan151/blob/main/NLP%20Sarcasm%20detection.ipynb): This project highlights the importance of GLove embeddings in Natural Lanaguage Processing. It trains an architecture of one Bidirectional GRU - Gated Recurrent Unit, one dense layer with 32 neurons and a final dense layer with 1 neuron and sigmoid activation. This model is trained twice once without the weights of GLove embeddings and again with it. The difference is substanial and the model without GLove embeddings tends to drastically overfit. 
 
-BERT 
+[Text Generator](https://github.com/roshan151/roshan151/blob/main/Text_Generator_NLP.ipynb): In this notebook I train a Bidirectional LSTM to predict the next word in a sequence. For the training set I have used Shakespeare's sonnets and I have fed each sentence multiple times, each time removing one word from the sequence and using that word as the predicted label. Finally the model tries to create a poem by accepting a seed text as input. 
+
 
 
