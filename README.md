@@ -4,7 +4,7 @@
 
 **Regression, Decision Tree and SVM**
 
-[Appllied Machine Learning Project](https://github.com/roshan151/roshan151/blob/main/AML_Project%20Code.ipynb) utlised data from 512 different species of mushrooms to classify them as poisonous or edible based on their characterstics like cap length, cap shape, color , stem length etc. Data was cleaned, visualized and 12 different models were tested to select the best performing models. It was implemented by a group of four students and I executed Logistic Regression, Polynomial Logistic Regression at degree 3, Decision Trees and Support Vector Machine. It could be internpreted from the scatter plot of data points that SVM is best suited for the dataset and it is confirmed by the F1 score. By adjusting the threshold of sigmoid function of logistic regression I was able to reduce the false negatives predicted by the model which is crucial for the final result as false positives represented the poisonous mushrooms as edible.   
+[Applied Machine Learning Project](https://github.com/roshan151/roshan151/blob/main/AML_Project%20Code.ipynb) utlized data from 512 different species of mushrooms to classify them as poisonous or edible based on their characteristics like cap length, cap shape, color , stem length etc. Data was cleaned, visualized and 12 different models were tested to select the best performing models. It was implemented by a group of four students and I executed Logistic Regression, Polynomial Logistic Regression at degree 3, Decision Trees and Support Vector Machine. It could be interpreted from the scatter plot of data points that SVM is best suited for the dataset and it is confirmed by the F1 score. By adjusting the threshold of sigmoid function of logistic regression I was able to reduce the false negatives predicted by the model which is crucial for the final result as false positives represented the poisonous mushrooms as edible.   
 
 **Computer Vision**
 
@@ -25,6 +25,8 @@
 [Sarcasm Detection](https://github.com/roshan151/roshan151/blob/main/NLP%20Sarcasm%20detection.ipynb): This project highlights the importance of GLove embeddings in Natural Lanaguage Processing. It trains an architecture of one Bidirectional GRU - Gated Recurrent Unit, one dense layer with 32 neurons and a final dense layer with 1 neuron and sigmoid activation. This model is trained twice once without the weights of GLove embeddings and again with it. The difference is substanial and the model without GLove embeddings tends to drastically overfit. 
 
 [Text Generator](https://github.com/roshan151/roshan151/blob/main/Text_Generator_NLP.ipynb): In this notebook I train a Bidirectional LSTM to predict the next word in a sequence. For the training set I have used Shakespeare's sonnets and I have fed each sentence multiple times, each time removing one word from the sequence and using that word as the predicted label. Finally the model tries to create a poem by accepting a seed text as input. 
+
+
 
 
 
