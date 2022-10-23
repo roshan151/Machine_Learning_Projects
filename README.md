@@ -1,5 +1,6 @@
 **Computer Vision Hybrid Model**
-[CBRE Hackathon] saw participation of over 70 teams from US, Europe and India. Our team recieved the jury pick award for this project. We consolidated data from Google Earth images, Google Distances and Places API to train real estate price prediction models. Then we trained computer vision models using CNN architecture as well as pretrained Inception V3 and XG Boost model for distance data. Finally a hybrid architecture was used to concatenate results and achieved 80% accuracy in predictions.
+
+[CBRE Hackathon](https://github.com/roshan151/hackathon-spacepenguins) saw participation of over 70 teams from US, Europe and India. Our team recieved the jury pick award for this project. We consolidated data from Google Earth images, Google Distances and Places API to train real estate price prediction models. Then we trained computer vision models using CNN architecture as well as pretrained Inception V3 and XG Boost model for distance data. Finally a hybrid architecture was used to concatenate results and achieved 80% accuracy in predictions.
 
 **Data Visualization**
 
